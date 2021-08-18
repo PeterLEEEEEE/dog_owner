@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94a5c5ec-1ef0-47c1-8ee2-7bc148640deb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/owners/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/owners/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/owners/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/owners/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/owners/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +29,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/owners" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -75,7 +70,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629177819525</updated>
-      <workItem from="1629177820770" duration="18921000" />
+      <workItem from="1629177820770" duration="19303000" />
+      <workItem from="1629267839843" duration="23000" />
+      <workItem from="1629267864708" duration="5052000" />
     </task>
     <servers />
   </component>

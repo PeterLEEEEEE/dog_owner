@@ -41,16 +41,27 @@ class DogRegister(View):
 
 class ViewOwner(View):
     def get(self, request):
+
         owners = Owner.objects.all()
+
         return_json = []
+        dog_list = []
+
         for owner in owners:
-            return_json.append(
-                {
-                    "name": owner.name,
-                    "email": owner.email,
-                    "age": owner.age
-                }
-            )
+            owner_dog = owner.dog_set.all()
+
+            for dog in owner_dog:
+                dog_list.append({
+                    "dog_name": dog.name,
+                    "dog_age": dog.age,
+                })
+
+            return_json.append({
+                "owner_name": owner.name,
+                "email": owner.email,
+                "age": owner.age,
+                "dog_list": dog_list,
+            })
 
         return JsonResponse({'owner_list': return_json}, status=201)
 
